@@ -1,11 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RiBox3Line } from '@remixicon/vue';
+
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main class="p-5">
+    <h1 class="text-3xl font-bold pb-1.5">Vue + Tailwind + Vite</h1>
+    <p class="flex items-center gap-1">
+      <RiBox3Line class="size-5" /> Notch Food Packaging
+    </p>
+  </main>
 </template>
-
-<style scoped></style>
